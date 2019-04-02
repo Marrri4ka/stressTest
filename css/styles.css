@@ -13,3 +13,15 @@
 .jumbotron {
   background-color: pink;
 }
+
+#ressourcehidden {
+  display: none;
+}
+
+#ressourcehidden2 {
+  display: none;
+}
+
+#ressourcehidden3 {
+  display: none;
+}
