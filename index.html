@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>How is your stress ?</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p> Which symptoms do you feel because of your stress? :</p>
+          <input type="checkbox" name="stress-symptoms" value="Loss of sleep"> Loss of sleep.<br>
+          <input type="checkbox" name="stress-symptoms" value="Feeling Overwhelmed"> Feeling Overwhelmed .<br>
+          <input type="checkbox" name="stress-symptoms" value="Angry">Angry.<br>
+          <input type="checkbox" name="stress-symptoms" value="Depressed">Depressed.<br>
+
+        </div>
+        <div class="form-group">
+          <p> Which health symptoms do you feel linked to your high-stress :</p>
+          <input type="checkbox" name="health-symptoms" value=" High blood pressure"> High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="Anxiety">Anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="Headache">Headache.<br>
+          <input type="checkbox" name="health-symptoms" value="Palpitation">Palpitation.<br>
+        </div>
+
+        <div class="form-group">
+          <p> Methods to deal with stress:</p>
+          <input type="checkbox" name="deal-methods" value="Meditate"> Meditate.<br>
+          <input type="checkbox" name="deal-methods" value="Manage your time">Manage your time.<br>
+          <input type="checkbox" name="deal-methods" value="Pet a cat">Pet a cat.<br>
+          <input type="checkbox" name="deal-methods" value="Walk">Walk.<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="stress-responses">
+        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      </span>
+      <br>
+      <span id="health-responses">
+        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      </span>
+        <br>
+        <span id="methods">
+          <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+        </span>
+    </div>
+  </body>
+</html>
